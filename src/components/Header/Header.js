@@ -1,20 +1,18 @@
-import React from "react";
-import "./Header.css";
-import {Link} from "react-router-dom"
-
+import React from "react"
+import "./Header.css"
+import { Link } from "react-router-dom"
 
 const Header = () => {
-    return(
+    return (
         <div className="header">
-            <div class="headerLeft">
-                <Link to='/'><img className="header__icon" src="./CWlogo.jpeg" /></Link>
-                <Link to='/movies/popular'>Popular</Link>
-                <Link to='/movies/top_Rated'>Top Rated</Link>
-                <Link to='/movies/upcoming'>Upcoming</Link>
+            <div className="headerLeft">
+                <Link to="/"><img className="header__icon" src='images/Logo.jpeg' alt="logo" /></Link>
+                <Link to="/movies/popular" style={{textDecoration: "none"}}><span>Popular</span></Link>
+                <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span>Top Rated</span></Link>
+                <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span>Upcoming</span></Link>
             </div>
         </div>
     )
 }
-
 
 export default Header
