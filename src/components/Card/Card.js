@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react"
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton"
-import "./Card.css"
+import "./card.css"
 import { Link } from "react-router-dom"
 
-const Card = ({movie}) => {
+const Cards = ({movie}) => {
 
     const [isLoading, setIsLoading] = useState(true)
 
@@ -40,4 +40,4 @@ const Card = ({movie}) => {
     </>
 }
 
-export default Card
+export default Cards
