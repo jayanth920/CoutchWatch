@@ -3,7 +3,7 @@
 
 ## CouchWatch :- Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+An app that lets you choose movies, and for the movies which are new it lets you go to the movie's official booking page.It also lets you go the official IMDB rating page. 
 
 ## Project Links
 
