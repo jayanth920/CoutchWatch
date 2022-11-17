@@ -32,7 +32,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Render data on page.
 - Allow user to interact with the page.
 - User must be able to click the movie cards.
-- The movie page must have official bokking link and an IMDB link.
+- The movie page must have official booking link and an IMDB link.
 - Different Tabs such as trending/top-rated/upcoming.
 
 #### PostMVP
