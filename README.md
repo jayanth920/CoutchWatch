@@ -15,7 +15,7 @@ An app that lets you choose movies, and for the movies which are new it lets you
 
 Upload images of wireframes and component hierarchy to cloudinary (or similar) and add the link here with a description of the specific wireframe.
 
-- WireFrames : [Page 1](https://user-images.githubusercontent.com/113549918/202493151-c8e40e12-67cf-4a23-97fb-9bf2d42680aa.jpg)<br>
+- WireFrames : [Page 1](https://user-images.githubusercontent.com/113549918/202493151-c8e40e12-67cf-4a23-97fb-9bf2d42680aa.jpg)
 	       [Page 2](https://user-images.githubusercontent.com/113549918/202493451-ed4ce579-e58c-469b-bcb4-df5825fb1ca0.jpg)
  
 - [React Architecture](https://user-images.githubusercontent.com/113549918/202492865-9a4846c8-b58d-4a06-86ad-ee6930119612.jpg)
@@ -69,14 +69,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+function Home() {
+    useEffect(() => {
+        fetch("https://api.themoviedb.org/3/movie/popular?api_key=4e44d9029b1270a757cddc766a1bcb63&language=en-US")
+        .then(res => res.json())
+        .then(data => setPopularMovies(data.results))
+    }, [])
 ```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR-1**: Not a React Dom child Element. (syntax error due to render keyword)                          
+**RESOLUTION**: Corrected the code from render to return.
+<br>
+**ERROR-2**: {useEffect} not defined.                          
+**RESOLUTION**: Had not imported the useEffect Hook.
+
