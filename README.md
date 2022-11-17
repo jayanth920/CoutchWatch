@@ -9,7 +9,7 @@ An app that lets you choose movies, and for the movies which are new it lets you
 
 - [Github Repo](https://github.com/jayanth920/project-2)
 - [Deployment](https://project-2-2b1ls4dk9-jayanth920.vercel.app/)
-- [Demo Recording]()
+- [Demo Recording](https://youtu.be/NrohkYzY9Uk)
 
 ## Wireframes & React Component Hierarchy
 
