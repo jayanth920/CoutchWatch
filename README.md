@@ -7,16 +7,19 @@ An app that lets you choose movies, and for the movies which are new it lets you
 
 ## Project Links
 
-- [github repo]()
-- [deployment]()
-- [demo recording]()
+- [Github Repo](https://github.com/jayanth920/project-2)
+- [Deployment](https://project-2-2b1ls4dk9-jayanth920.vercel.app/)
+- [Demo Recording]()
 
 ## Wireframes & React Component Hierarchy
 
 Upload images of wireframes and component hierarchy to cloudinary (or similar) and add the link here with a description of the specific wireframe.
 
-- [wireframes]()
-- [react architecture]()
+- WireFrames : [Page 1](https://user-images.githubusercontent.com/113549918/202493151-c8e40e12-67cf-4a23-97fb-9bf2d42680aa.jpg)<br>
+	       [Page 2](https://user-images.githubusercontent.com/113549918/202493451-ed4ce579-e58c-469b-bcb4-df5825fb1ca0.jpg)
+ 
+- [React Architecture](https://user-images.githubusercontent.com/113549918/202492865-9a4846c8-b58d-4a06-86ad-ee6930119612.jpg)
+
 
 Define the the React components and the architectural design of your app.
 
@@ -24,14 +27,17 @@ Define the the React components and the architectural design of your app.
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decide what is placed into your MVP as the "client" will expect this functionality to be implemented upon project completion.  
 
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
+#### MVP
+- Find and use external api.
+- Render data on page.
+- Allow user to interact with the page.
+- User must be able to click the movie cards.
+- The movie page must have official bokking link and an IMDB link.
+- Different Tabs such as trending/top-rated/upcoming.
 
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase (or similar) for storage
+#### PostMVP
+- Slideshow in the main page.
+- Hovering over movies sjould give a brief info about it.
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
