@@ -3,7 +3,7 @@
 
 ## CouchWatch :- Description
 
-An app that lets you choose movies, and for the movies which are new it lets you go to the movie's official booking page.It also lets you go the official IMDB rating page. 
+An app that lets you choose movies, and for the movies which are new it lets you go to the movie's official booking page. It also lets you go the official IMDB rating page. 
 
 ## Project Links
 
@@ -37,7 +37,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP
 - Slideshow in the main page.
-- Hovering over movies sjould give a brief info about it.
+- Hovering over movies should give a brief info about it.
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -46,9 +46,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header, include the nav | 
-| Footer | This will render the footer, include links to github repo | 
+| App | This will make the initial data pull through import and include React Router.| 
+| Header | This will render the header, including the nav bar, logo and tabs. | 
+| Card | This will render each of the card design. | 
+| MovieList | This will render the layout of the cards in a container on the homepage in rows. | 
 
 ## Time Frames
 
@@ -56,14 +57,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Header | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 1hr| 1hr | 2.5hrs |
+| Adding Body with Movie Cards | H | 2 days| 2 days | 2 days |
+| Movie Details Page | H | 1 day| 1 day | 1 day |
 
-## Additional Libraries
- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, Bootstrap, Tailwind CSS, etc. 
+## Additional Libraries and Packages
+ #### NPM PACKAGES:[[React-Router-Dom](https://www.npmjs.com/package/react-router-dom)] --- [[Axios](https://www.npmjs.com/package/react-axios)] --- [[React-Loading-Skeleton](https://www.npmjs.com/package/react-loading-skeleton)] --- [[React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)]
 
-## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code. 
 
