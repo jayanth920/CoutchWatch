@@ -65,7 +65,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 ## Additional Libraries and Packages
  #### NPM PACKAGES:[[React-Router-Dom](https://www.npmjs.com/package/react-router-dom)] --- [[Axios](https://www.npmjs.com/package/react-axios)] --- [[React-Loading-Skeleton](https://www.npmjs.com/package/react-loading-skeleton)] --- [[React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)]
 
-
+## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
